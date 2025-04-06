@@ -1,15 +1,26 @@
-# Portfolio Website
+# Vishal Siddha - Personal Portfolio Website
 
-A modern portfolio website built with Next.js for the frontend and Node.js for the backend.
+A modern, responsive portfolio website showcasing my skills, projects, and professional experience as a Software Developer.
 
-## Features
+## About Me
 
-- Responsive design that works on all devices
-- Modern UI with Tailwind CSS
-- Server-side rendering with Next.js
-- Backend API with Express
-- Contact form functionality
-- Sections for showcasing skills, projects, and professional information
+I'm a Software Developer with 2 years of experience at Kratikal Tech Pvt. Ltd., specializing in building scalable backend systems. I hold a Master of Computer Applications (MCA) degree from MNNIT Allahabad and have successfully led multiple projects from concept to production.
+
+## Portfolio Highlights
+
+- **Interactive UI**: Modern interface with smooth animations and transitions
+- **Responsive Design**: Fully responsive layout that works on mobile, tablet, and desktop devices
+- **Dynamic Sections**: Hero, About, Skills, Experience, Projects, and Contact sections
+- **Dark Theme**: Professional dark blue color scheme with subtle accents
+- **Animated Elements**: Scroll-based animations and interactive components
+
+## Technologies Used
+
+- **Frontend**: Next.js, React, TypeScript, Tailwind CSS
+- **Animation**: Framer Motion
+- **Styling**: CSS Modules, Tailwind CSS
+- **Deployment**: Vercel/Netlify
+- **Version Control**: Git/GitHub
 
 ## Getting Started
 
@@ -22,81 +33,59 @@ A modern portfolio website built with Next.js for the frontend and Node.js for t
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/vishal-siddha/portfolio.git
 cd portfolio
 ```
 
-2. Install frontend dependencies:
+2. Install dependencies:
 ```bash
 npm install
-```
-
-3. Install backend dependencies:
-```bash
-cd server
-npm install
-cd ..
 ```
 
 ### Development
 
-1. Start the frontend development server:
+Start the development server:
 ```bash
 npm run dev
 ```
 
-2. Start the backend server (in a separate terminal):
-```bash
-cd server
-npm run dev
-```
-
-3. Open your browser and navigate to `http://localhost:3000`
+Open your browser and navigate to `http://localhost:3000`
 
 ### Building for Production
 
-1. Build the frontend:
 ```bash
 npm run build
-```
-
-2. Start the production server:
-```bash
 npm start
 ```
 
-## Customization
+## Project Structure
 
-### Personal Information
+- `src/components` - All UI components organized by section
+- `public` - Static assets like images and fonts
+- `styles` - Global CSS and theme configuration
 
-- Edit your personal information in the components
-- Update the project details in `src/components/Projects.tsx`
-- Modify skills in `src/components/Skills.tsx`
-- Change your contact information in `src/components/Footer.tsx`
+## Features
 
-### Styling
-
-This project uses Tailwind CSS for styling. You can customize the design by:
-
-1. Modifying the theme in `tailwind.config.js`
-2. Editing the global styles in `src/styles/globals.css`
-3. Changing component-specific styles directly in the component files
-
-### Adding Content
-
-- Add new projects by updating the projects array in `src/components/Projects.tsx`
-- Add new skills by updating the skills array in `src/components/Skills.tsx`
+- **Hero Section**: Engaging introduction with animated background effects
+- **About Section**: Professional biography highlighting education and experience
+- **Skills Section**: Visual representation of technical skills organized by category
+- **Experience Section**: Timeline of professional experience and achievements
+- **Projects Section**: Showcase of recent projects with descriptions and links
+- **Contact Section**: Contact form and professional links
 
 ## Deployment
 
-### Frontend (Next.js)
+This portfolio is deployed on https://vishalsiddha.com/. Visit [https://vishalsiddha.com/] to see it live.
 
-You can deploy the Next.js app to platforms like Vercel or Netlify with minimal configuration.
+## Customization
 
-### Backend (Express)
+Feel free to fork this project and customize it for your own portfolio:
 
-Deploy the Node.js backend to platforms like Heroku, Railway, or any cloud provider that supports Node.js.
+1. Update personal information in the component files
+2. Modify the color scheme in Tailwind config
+3. Add your own projects and skills
+4. Replace profile image and other assets
 
 ## License
 
-MIT 
+MIT License 

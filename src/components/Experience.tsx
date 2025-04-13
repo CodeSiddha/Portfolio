@@ -37,47 +37,37 @@ const Experience = () => {
 
     const experiences = [
         {
-            title: "Software Engineer",
-            company: "XYZ Tech Solutions",
-            location: "San Francisco, CA",
-            period: "Aug 2022 - Present",
+            title: "Software Development Engineer",
+            company: "Kratikal Tech Pvt. Ltd.",
+            location: "Noida, UP",
+            period: "June 2023 - Present",
             type: "Full-time",
             description: "Working as a full-stack developer on enterprise web applications, implementing both frontend and backend features with a focus on performance and scalability.",
             responsibilities: [
-                "Developed and maintained RESTful APIs using Node.js, Express, and MongoDB",
-                "Built responsive frontend components with React and TypeScript",
-                "Implemented microservices architecture for improved system scalability",
-                "Collaborated with cross-functional teams to deliver high-quality software"
+                "Led end-to-end development of the Threatcop Admin (TA) portal, a centralized user and group management system spanning 4 enterprise applications, reducing administrative overhead by approximately 40% through unified user provisioning and access control.",
+                "Designed and implemented a scalable database schema for Threatcop Admin, ensuring backward compatibility and data integrity. Successfully migrated user and group data from 4 separate systems, eliminating data mismatches and achieving 100% consistency.",
+                "Developed and deployed Single Sign-On (SSO) functionality using industry-standard protocols. Enabled seamless authentication across all 4 unified applications, enhancing user login efficiency by 75%.",
+                "Synchronized Azure Active Directory and Google Workspace with TA, enabling automated real-time user and group management. Reduced manual syncing efforts by 80%.",
+                "Executed Azure Marketplace onboarding for TA, facilitating streamlined client procurement and automated subscription lifecycle management via webhooks, reducing manual handling tasks by 60%.",
+                "Created an Identity and Access Management (IAM) module using Role-Based Access Control (RBAC), improving security compliance by 50% and operational efficiency by 35%.",
+                "Engineered RESTful API infrastructure and connected it with frontend components, enabling seamless data communication and improving application responsiveness by 30%.",
+                "Established a centralized license and package management system in TA, ensuring 100% accuracy across multi-application environments.",
+                "Resolved 58+ backend API issues in the production system, increasing overall system stability by 75% and enhancing maintainability through structured documentation.",
+                "Optimized backend database queries, routing logic, and frontend rendering workflows, reducing latency and significantly improving response times and application performance."
             ],
-            technologies: ["React", "Node.js", "TypeScript", "MongoDB", "Microservices", "Redux"]
-        },
-        {
-            title: "Junior Developer",
-            company: "ABC Digital",
-            location: "New York, NY",
-            period: "Jan 2021 - July 2022",
-            type: "Full-time",
-            description: "Worked on a team developing web applications for clients in the healthcare and finance sectors, focusing on building secure and compliant solutions.",
-            responsibilities: [
-                "Built and maintained responsive web applications using React",
-                "Developed backend services with Node.js and Express",
-                "Worked with SQL and NoSQL databases including MySQL and MongoDB",
-                "Participated in code reviews and implemented feedback from senior developers"
-            ],
-            technologies: ["React", "JavaScript", "Node.js", "Express", "MySQL", "AWS"]
+            technologies: ["React", "Node.js", "MYSQL", "Microservices", "Redux", "Azure AD", "Google Workspace", "SSO", "RBAC"]
         },
         {
             title: "Software Development Intern",
-            company: "Tech Innovators",
-            location: "Chicago, IL",
-            period: "May 2020 - Dec 2020",
+            company: "Kratikal Tech Pvt. Ltd.",
+            location: "Noida, UP",
+            period: "JAN 2023 - MAY 2023",
             type: "Internship",
             description: "Gained hands-on experience in web development by contributing to a customer-facing web application. Learned software development best practices and agile methodology.",
             responsibilities: [
-                "Assisted in developing UI components using React and CSS",
-                "Created RESTful APIs with Node.js and Express",
-                "Performed unit and integration testing for application modules",
-                "Participated in daily standups and sprint planning meetings"
+                "Contributed to the development of Auto-SecT, an internal security automation tool, where I integrated multiple third-party APIs and built backend endpoints to streamline operations.",
+                "Actively participated in project planning sessions, contributing to technical discussions and sprint structuring.",
+                "Gained hands-on experience with Node.js, REST APIs, and system architecture, setting the foundation for full-time development responsibilities.",
             ],
             technologies: ["React", "JavaScript", "HTML/CSS", "Node.js", "Express"]
         }

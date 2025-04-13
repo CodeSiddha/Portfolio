@@ -41,7 +41,7 @@ const Navbar = () => {
     ];
 
     // Resume URL - update this with your actual resume link
-    const resumeUrl = "https://drive.google.com/file/d/1EugXq3DJOiZny3ZwhRI1SRYeJ4_e1f82/view?usp=sharing";
+    const resumeUrl = "https://drive.google.com/file/d/1oAIHltFgZtnUzTj24FgG_q_aV_qnN23l/view?usp=sharing";
 
     return (
         <nav className={`fixed w-full z-20 transition-all duration-300 ${scrolled ? 'bg-white/90 dark:bg-dark/90 backdrop-blur-sm shadow-md' : 'bg-white dark:bg-dark'}`}>

@@ -49,7 +49,7 @@ const Skills = () => {
             // Programming Languages
             case 'java': return <FaJava className="text-red-500" />;
             case 'javascript': return <FaJs className="text-yellow-400" />;
-            case 'typescript': return <SiTypescript className="text-blue-500" />;
+            case 'SQL': return <SiTypescript className="text-blue-500" />;
             case 'c': return <SiC className="text-blue-600" />;
             case 'c++': return <SiCplusplus className="text-blue-700" />;
 
@@ -74,16 +74,12 @@ const Skills = () => {
             case 'aws': return <FaAws className="text-orange-500" />;
             case 'azure': return <TbBrandAzure className="text-blue-500" />;
             case 'gcp': return <SiGooglecloud className="text-red-400" />;
-            case 'docker': return <FaDocker className="text-blue-500" />;
-            case 'ci/cd': return <BsFillGearFill className="text-gray-500" />;
 
             // Tools & Others
             case 'git': return <FaGit className="text-orange-600" />;
             case 'github': return <FaGithub className="text-gray-700 dark:text-gray-300" />;
             case 'jira': return <SiJira className="text-blue-500" />;
             case 'postman': return <SiPostman className="text-orange-600" />;
-            case 'jest': return <SiJest className="text-red-600" />;
-            case 'webpack': return <SiWebpack className="text-blue-500" />;
 
             default: return <FaDatabase className="text-gray-500" />; // Default icon
         }
@@ -98,7 +94,7 @@ const Skills = () => {
             color: "from-purple-500 to-indigo-500",
             technologies: [
                 { name: "JavaScript", level: 90 },
-                { name: "TypeScript", level: 85 },
+                { name: "MYSQL", level: 85 },
                 { name: "JAVA", level: 80 },
                 { name: "C", level: 70 },
                 { name: "C++", level: 75 }
@@ -142,8 +138,6 @@ const Skills = () => {
                 { name: "AWS", level: 75 },
                 { name: "Azure", level: 70 },
                 { name: "GCP", level: 65 },
-                { name: "Docker", level: 80 },
-                { name: "CI/CD", level: 75 }
             ]
         },
         {
@@ -156,8 +150,6 @@ const Skills = () => {
                 { name: "GitHub", level: 85 },
                 { name: "Jira", level: 80 },
                 { name: "Postman", level: 85 },
-                { name: "Jest", level: 75 },
-                { name: "Webpack", level: 70 }
             ]
         }
     ];

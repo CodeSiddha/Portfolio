@@ -1,5 +1,6 @@
 const Message = require('../models/Message');
 
+
 // @desc    Send a new message
 // @route   POST /api/messages
 // @access  Public
@@ -47,4 +48,4 @@ exports.getMessages = async (req, res) => {
             error: 'Server Error'
         });
     }
-}; 
+};
